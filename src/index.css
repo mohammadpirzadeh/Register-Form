@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+#deleteicon{
+    background-color: hwb(0 31% 13%);
+    color: #ffffff;
+    border: 1px dashed black;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    transition-duration: 0.4s;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+#deleteicon:hover{
+    background-color: #ffffff;
+    color: hwb(0 31% 13%);
+    font-size: 16px;
+}
+#edit{
+    background-color: #1ed37f;
+    color: #fafafa;
+    border: 1px dashed black;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    transition-duration: 0.4s;
+}
+#edit:hover{
+    background-color: #ffffff;
+    color:#1ed37f ;
+    font-size: 16px;
+}
+.tbl{
+    border: 30px;
+    border-radius:20px ;
+    border-color: hsl(138, 100%, 50%);
+}
+/* .spc{
+    direction: rtl;
+    
+}*/
+.mnutit{
+    color: white !important;   
+}
+h1{
+    display: inline;
+    float:right;
+    text-align: right;
+    margin-right: 50;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.frm1{
+    background-color: rgb(232, 249, 240);
+    border:0.5px solid #5b5b5b  ;
+    border-right:5px solid black;
+    padding: 10px;
+
+}
+.plusicon{
+    background-color: hwb(56 47% 46%);
+    font-size: 19px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: gold;
+    margin: 10px;
+    border: 1px dashed hsl(0, 0%, 100%);
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    }
+.plusicon:hover{
+    background-color:gold;
+    color: bisque;
+    font-size: 21px;
+    justify-content: center;
+}
+body{
+    
+    background-image: url('Code1.jpg')
+}
+.ant-table-wrapper table {
+    background: radial-gradient(#d8d1d1, #cc9999);
 }
